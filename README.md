@@ -1,1 +1,14 @@
 # Hybrid-DOT
+
+This repository contains the code for the paper "Hybrid data- and model-driven three-dimensional ocean sound speed field super-resolution: Diffusion model meets low-rank tensor".
+
+## Description
+
+Please find the 3DSSF dataset [here]. For model evaluation, you can either train a new model or use the pre-trained model available at here.
+
+## Usage
+
+Run the following command to perform SR:
+```
+python Inference.py --model_path=./ckpt/ssf.pt --diffusion_config=configs/diffusion_config.yaml --task_config=configs/super_resolution_config.yaml
+```
