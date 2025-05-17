@@ -4,7 +4,7 @@ This repository contains the code for the paper "Hybrid data- and model-driven t
 
 ## Description
 
-Please find the 3DSSF dataset [here]. For model evaluation, you can either train a new model or use the pre-trained model available at [here](https://drive.google.com/file/d/15P59cckEFyhxVtwhUn3vCF7IbMz7cCae/view?usp=drive_link).
+Please find the 3DSSF dataset [here](https://drive.google.com/file/d/1mDZ29nNAQso_4TWC1N1bAjJc3rls8OSR/view?usp=drive_link). For model evaluation, you can either train a new model or use the pre-trained model available at [here](https://drive.google.com/file/d/15P59cckEFyhxVtwhUn3vCF7IbMz7cCae/view?usp=drive_link). Put the 3DSSF data in './data/' and the checkpoint in './ckpt/'.
 
 ## Usage
 
