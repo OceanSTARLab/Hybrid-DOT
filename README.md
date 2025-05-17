@@ -12,3 +12,16 @@ Run the following command to perform SR:
 ```
 python Inference.py --model_path=./ckpt/ssf.pt --diffusion_config=configs/diffusion_config.yaml --task_config=configs/super_resolution_config.yaml
 ```
+
+## References and Acknowlegments
+The implementation is based on
+```
+@inproceedings{
+chung2023diffusion,
+title={Diffusion Posterior Sampling for General Noisy Inverse Problems},
+author={Hyungjin Chung and Jeongsol Kim and Michael Thompson Mccann and Marc Louis Klasky and Jong Chul Ye},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://openreview.net/forum?id=OnD9zGAGT0k}
+}
+```
