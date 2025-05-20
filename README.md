@@ -14,6 +14,21 @@ python Inference.py --model_path=./ckpt/ssf.pt --diffusion_config=configs/diffus
 ```
 
 ## References and Acknowlegments
+
+If you find the code useful for your research, please consider citing
+```
+@article{sun2025hybrid,
+  title={Hybrid data-and model-driven three-dimensional ocean sound speed field super-resolution: Diffusion model meets low-rank tensor},
+  author={Sun, Yifan and Li, Siyuan and Fang, Shikai and Cheng, Lei and Li, Jianlong and Gerstoft, Peter},
+  journal={The Journal of the Acoustical Society of America},
+  volume={157},
+  number={5},
+  pages={3756--3770},
+  year={2025},
+  publisher={AIP Publishing}
+}
+```
+
 The implementation is based on
 ```
 @inproceedings{
