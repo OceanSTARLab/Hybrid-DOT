@@ -10,7 +10,7 @@ Please find the 3DSSF dataset [here](https://drive.google.com/file/d/1mDZ29nNAQs
 
 Run the following command to perform SR:
 ```
-python Inference.py --model_path=./ckpt/ssf.pt --diffusion_config=configs/diffusion_config.yaml --task_config=configs/super_resolution_config.yaml
+python Inference.py --model_path=ckpt/ssf.pt --diffusion_config=configs/diffusion_config.yaml --task_config=configs/super_resolution_config.yaml
 ```
 
 ## References and Acknowlegments
